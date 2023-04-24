@@ -1,0 +1,50 @@
+/*  for search,history and back button
+    rounded corner button with text at center and on hover cursor hand mode;
+*/
+button{
+    width: 80px;
+    height: 40px;
+    background: darkcyan;
+    color: snow;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin : 5px 5px;
+    cursor : pointer;
+    text-align: center;
+}
+
+/*
+    input area for search;
+*/
+input[type=text]{
+    width: 32%;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 40px;
+    padding: 10px 20px;
+    font-weight: 50;
+    margin-left: 5%;
+}
+body{
+    text-align: center;
+    background-color: lightcyan;
+}
+
+/*
+    for history and search table;
+*/
+.table{
+    display:inline-block;
+    border-collapse: collapse;
+}
+tr{
+    background-color: aliceblue;
+}
+
+/* title */
+h1{
+    margin-left: 10px;
+    margin-top: 15%;
+    font-family: arial,sans-serif;
+    font-style: italic;
+}
